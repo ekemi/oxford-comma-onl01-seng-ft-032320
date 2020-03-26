@@ -6,8 +6,9 @@ require 'pry'
       # y[-1].replace(x)
       # y.join(",")
       if array.length == 1
-
-         return array.length == 2
+           return array
+           
+        elsif array.length == 2
         array.join(" ")
         #binding.pry
         x=((array[-1] << (" and")).split(" ").reverse).join(' ')
