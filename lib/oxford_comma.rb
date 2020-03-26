@@ -15,6 +15,15 @@ require 'pry'
         array[-1].replace(x)
         array.join(" ")
         #binding.pry
+
+      else
+        array.join(",")
+         x=((array[-1] << (" and")).split(" ").reverse).join(' ')
+        array[-1].replace(x)
+        array.join(",")
+
+
+        
       end
 
 
