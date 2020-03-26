@@ -6,7 +6,7 @@ require 'pry'
       # y[-1].replace(x)
       # y.join(",")
       if array.length == 1
-           return array
+           return array.join
            
         elsif array.length == 2
         array.join(" ")
