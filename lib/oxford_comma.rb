@@ -7,8 +7,7 @@ require 'pry'
       # y.join(",")
       if array.length == 1
 
-         return array.join
-      else
+         return array.length == 2
         array.join(" ")
         #binding.pry
         x=((array[-1] << (" and")).split(" ").reverse).join(' ')
