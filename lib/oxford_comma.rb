@@ -20,6 +20,7 @@ require 'pry'
         array.join(",")
          x=((array[-1] << (" and")).split(" ").reverse).join(' ')
         array[-1].replace(x)
+        binding.pry
         array.join(", ")
 
 
